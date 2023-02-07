@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hp\AppData\Local\Temp\RSP9BCE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "tommath.h" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Client.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\hp\Desktop\Client\EnciperDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\hp\AppData\Local\Temp\RSP9BCE.tmp" 
+Creating temporary file "C:\Users\hp\AppData\Local\Temp\RSP9BCF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib MathLib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Client.pdb" /debug /machine:I386 /out:"Debug/Client.exe" /pdbtype:sept 
+.\Debug\Client.obj
+.\Debug\ClientDlg.obj
+.\Debug\EnciperDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Client.res
+]
+Creating command line "link.exe @C:\Users\hp\AppData\Local\Temp\RSP9BCF.tmp"
+<h3>Output Window</h3>
+Compiling...
+EnciperDlg.cpp
+c:\users\hp\desktop\client\enciperdlg.cpp(4) : warning C4652: compiler option 'CDecl(/Gd)' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+C:\Users\hp\Desktop\Client\EnciperDlg.cpp(499) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\Users\hp\Desktop\Client\EnciperDlg.cpp(1020) : warning C4244: '=' : conversion from 'unsigned __int64' to 'char', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+Client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
